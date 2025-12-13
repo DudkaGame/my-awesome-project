@@ -16,4 +16,4 @@
 ## Демо
 
 Посмотреть результат можно по ссылке:
-[https://dudkagame.github.io/my-awesome-project/](https://dudkagame.github.io/my-awesome-project/)
+[https://dudkagame.github.io/my-awesome-project/]

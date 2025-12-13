@@ -1,0 +1,17 @@
+[33mcf9fd87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: checkout: moving from dev to main
+[33mcafa4c9[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{1}: checkout: moving from main to dev
+[33mcf9fd87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: reset: moving to HEAD~1
+[33me300be1[m HEAD@{3}: checkout: moving from dev to main
+[33mcafa4c9[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{4}: checkout: moving from main to dev
+[33me300be1[m HEAD@{5}: commit: create lending site - coffe theme
+[33mcf9fd87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{6}: pull origin main: Merge made by the 'ort' strategy.
+[33m9c068a9[m HEAD@{7}: commit: feat: add bug_report.md and PULL_REQUEST_TEMPLATE.md in ISSUE TEMPLATE
+[33mcafa4c9[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{8}: Branch: renamed refs/heads/dev to refs/heads/main
+[33mcafa4c9[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{10}: commit: feat: add basic index.html with favicon and viewport meta tag
+[33m8daf39b[m HEAD@{11}: checkout: moving from main to dev
+[33m8daf39b[m HEAD@{12}: commit: feat: initialize project structure with README and gitignore
+[33m460eb5d[m HEAD@{13}: commit: feat: initialize project structure with README and gitignore
+[33m0776261[m HEAD@{14}: Branch: renamed refs/heads/main to refs/heads/main
+[33m0776261[m HEAD@{16}: commit: feat: initialize project structure with README and gitignore
+[33mf3e7b1c[m HEAD@{17}: Branch: renamed refs/heads/master to refs/heads/main
+[33mf3e7b1c[m HEAD@{19}: commit (initial): feat: initialize project structure with README and gitignore
