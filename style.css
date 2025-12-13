@@ -1,0 +1,281 @@
+:root {
+    --gray: #415167;
+    --brown: #c7a17a;
+    --black: #151d28;
+    --white: #ffffff;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: var(--white);
+    margin: 0;
+    min-width: 1200px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: med;
+    color: var(--gray);
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.col-visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.title-main {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+.menu {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: right;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-white {
+    background: var(--gray);
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item-center {
+    text-align: center;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-med {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.clwhite {
+    color: white;
+}
+
+.title-small {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title-small-white {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.price {
+    color: var(--brown);
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    background: var(--brown);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.link {
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.gift-block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.banner {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+}
+.banner-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 357px;
+    display: block;
+    z-index: 0;
+}
+.title-main {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    z-index: 1;
+    font-size: 30px;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.nav-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.col-nav {
+    position: absolute;
+    right: 70px;
+}
+
+.hightlight {
+    color: var(--brown);
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: var(--gray);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-small {
+    text-align: center;
+    color: var(--white);
+}
+.icon2 {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+}
+
+.padding {
+    padding-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.highlight {
+    color: var(--brown);
+}

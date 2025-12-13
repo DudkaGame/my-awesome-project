@@ -1,47 +1,446 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мой первый сайт</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <h1>МойСайт</h1>
-      <nav>
-        <a href="#home">Главная</a>
-        <a href="#about">О нас</a>
-        <a href="#services">Услуги</a>
-        <a href="#contact">Контакты</a>
-      </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Revo Coffee</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+        <link
+            rel="icon"
+            href="assets/icons/IC_coffee.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <div class="container header">
+            <div class="banner">
+                <div class="col-brand">
+                    <div class="logo">
+                        <img
+                            src="/assets/img/LOGO.png"
+                            alt="Logo"
+                        />
+                    </div>
+                </div>
+                <img
+                    class="banner-img"
+                    src="/assets/img/Баннер.jpg"
+                    alt="Баннер"
+                />
+                <div class="title-main">
+                    <h1>
+                        Ваш<br />
+                        <span class="highlight">Персональный</span>
+                        <br />
+                        Кофе
+                    </h1>
+                </div>
+            </div>
 
-    <main>
-      <section id="home">
-        <h2>Добро пожаловать!</h2>
-        <p>Это главная страница нашего веб-приложения.</p>
-      </section>
+            <div class="nav-align">
+                <div class="col-nav">
+                    <div class="icon icon2">
+                        <img
+                            src="/assets/icons/shopping-cart-3.png"
+                            alt="Корзина"
+                        />
+                    </div>
 
-      <section id="about">
-        <h2>О нас</h2>
-        <p>Краткий текст о том, чем вы занимаетесь.</p>
-      </section>
+                    <nav class="menu">
+                        <a
+                            href="#"
+                            class="menu-link"
+                            >Главная</a
+                        >
+                        <a
+                            href="#"
+                            class="menu-link"
+                            >Кофе</a
+                        >
+                        <a
+                            href="#"
+                            class="menu-link"
+                            >Магазин</a
+                        >
+                        <a
+                            href="#"
+                            class="menu-link"
+                            >Комбо</a
+                        >
+                        <a
+                            href="#"
+                            class="menu-link"
+                            >Контакты</a
+                        >
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-      <section id="services">
-        <h2>Услуги</h2>
-        <p>Описание основных услуг или функционала.</p>
-      </section>
+        <div class="section bg-white">
+            <h1 class="clwhite item-center padding">КОФЕ СОЗДАЕТ ВАШУ БАЗУ</h1>
+            <div class="container grid-4">
+                <div class="item-center">
+                    <div class="icon">
+                        <img
+                            src="/assets/icons/ic.png"
+                            alt="ic0"
+                        />
+                    </div>
+                    <h1 class="title-small clwhite">Истоки</h1>
+                    <div
+                        class="title-small-white"
+                        style="font-weight: 400; font-size: 16px"
+                    >
+                        Мы тщательно отбираем только лучшее зерно с плантаций
+                        центрального нагорья Вьетнама.
+                    </div>
+                </div>
+                <div class="item-center">
+                    <div class="icon">
+                        <img
+                            src="/assets/icons/IC(1).png"
+                            alt="ic1"
+                        />
+                    </div>
+                    <h1 class="title-small clwhite">Качество</h1>
+                    <div
+                        class="title-small-white"
+                        style="font-weight: 400; font-size: 16px"
+                    >
+                        Наше необжаренное зерно сохраняет природную свежесть и
+                        потенциал благодаря идеальным условиям хранения.
+                    </div>
+                </div>
+                <div class="item-center">
+                    <div class="icon">
+                        <img
+                            src="/assets/icons/IC(2).png"
+                            alt="ic2"
+                        />
+                    </div>
+                    <h1 class="title-small clwhite">Сорта</h1>
+                    <div
+                        class="title-small-white"
+                        style="font-weight: 400; font-size: 16px"
+                    >
+                        Обжарка проводится на современном оборудовании с точным
+                        контролем температуры и времени для каждой партии.
+                    </div>
+                </div>
+                <div class="item-center">
+                    <div class="icon">
+                        <img
+                            src="/assets/icons/IC(3).png"
+                            alt="ic3"
+                        />
+                    </div>
+                    <h1 class="title-small clwhite">Обжарка</h1>
+                    <div
+                        class="title-small-white"
+                        style="font-weight: 400; font-size: 16px"
+                    >
+                        В чашке раскрывается яркий, многогранный вкус с нотами
+                        тропических фруктов, карамели и темного шоколада.
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <section id="contact">
-        <h2>Контакты</h2>
-        <p>Email: info@example.com</p>
-        <p>Телефон: +7 (123) 456-78-90</p>
-      </section>
-    </main>
+        <div class="section">
+            <div class="container">
+                <div class="item-center">
+                    <div
+                        class="title-small"
+                        style="color: var(--gray)"
+                    >
+                        Выбор
+                    </div>
+                    <h1 class="title-med">Идеальный вкус</h1>
+                </div>
 
-    <footer>
-      <p>&copy; 2025. Все права защищены.</p>
-    </footer>
-  </body>
+                <div class="grid-2">
+                    <div class="card card-row">
+                        <div
+                            class="placeholder"
+                            style="width: 150px; height: 200px; flex-shrink: 0"
+                        >
+                            <img
+                                src="/assets/img/IMAGE(1).png"
+                                alt="REVO Morning"
+                            />
+                        </div>
+                        <div>
+                            <h1 class="price">99 ₽</h1>
+                            <div class="title-small">REVO Morning</div>
+                            <p
+                                class="title-small"
+                                style="font-weight: 400; font-size: 14px"
+                            >
+                                Цветочные ноты
+                            </p>
+                            <a
+                                href="#"
+                                class="button"
+                                >Купить</a
+                            >
+                            <a
+                                href="#"
+                                class="link"
+                                >Детали</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card card-row">
+                        <div
+                            class="placeholder"
+                            style="width: 150px; height: 200px; flex-shrink: 0"
+                        >
+                            <img
+                                src="/assets/img/IMAGE(2).png"
+                                alt="REVO Origin"
+                            />
+                        </div>
+                        <div>
+                            <h1 class="price">139 ₽</h1>
+                            <div class="title-small">REVO Origin</div>
+                            <p
+                                class="title-small"
+                                style="font-weight: 400; font-size: 14px"
+                            >
+                                Сладкое послевкусие
+                            </p>
+                            <a
+                                href="#"
+                                class="button"
+                                >Купить</a
+                            >
+                            <a
+                                href="#"
+                                class="link"
+                                >Детали</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card card-row">
+                        <div
+                            class="placeholder"
+                            style="width: 150px; height: 200px; flex-shrink: 0"
+                        >
+                            <img
+                                src="/assets/img/IMAGE(3).png"
+                                alt="REVO Everyday"
+                            />
+                        </div>
+                        <div>
+                            <h1 class="price">85 ₽</h1>
+                            <div class="title-small">REVO Everyday</div>
+                            <p
+                                class="title-small"
+                                style="font-weight: 400; font-size: 14px"
+                            >
+                                Шоколад и карамель
+                            </p>
+                            <a
+                                href="#"
+                                class="button"
+                                >Купить</a
+                            >
+                            <a
+                                href="#"
+                                class="link"
+                                >Детали</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="card card-row">
+                        <div
+                            class="placeholder"
+                            style="width: 150px; height: 200px; flex-shrink: 0"
+                        >
+                            <img
+                                src="/assets/img/IMAGE(4).png"
+                                alt="REVO Bold"
+                            />
+                        </div>
+                        <div>
+                            <h1 class="price">75 ₽</h1>
+                            <div class="title-small">REVO Bold</div>
+                            <p
+                                class="title-small"
+                                style="font-weight: 400; font-size: 14px"
+                            >
+                                Крепкий характер
+                            </p>
+                            <a
+                                href="#"
+                                class="button"
+                                >Купить</a
+                            >
+                            <a
+                                href="#"
+                                class="link"
+                                >Детали</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section bg-white">
+            <div class="container gift-block center">
+                <div
+                    class="placeholder"
+                    style="width: 500px; height: auto"
+                >
+                    <img
+                        src="/assets/img/pr-0018-r(1).png"
+                        alt="Набор Легенда"
+                        style="height: 400px; width: auto"
+                    />
+                </div>
+                <div>
+                    <h1 class="title-med clwhite">Лучший подарок</h1>
+                    <div class="title-small-white">Набор «Легенда»</div>
+                    <p class="price">285 ₽</p>
+                    <p
+                        class="title-small-white"
+                        style="font-weight: 400; font-size: 16px"
+                    >
+                        Кофе, фильтр и чашка для ценителей.
+                    </p>
+                    <a
+                        href="#"
+                        class="button"
+                        >Купить</a
+                    >
+                    <a
+                        href="#"
+                        class="link"
+                        >Детали</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="item-center">
+                    <div
+                        class="title-small"
+                        style="color: var(--gray)"
+                    >
+                        Ваш выбор
+                    </div>
+                    <h1 class="title-med">Комбо наборы</h1>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <div
+                            class="placeholder"
+                            style="height: 180px; margin-bottom: 20px"
+                        >
+                            <img
+                                src="/assets/img/image(6).png"
+                                alt="Combo Bold"
+                            />
+                        </div>
+                        <h1 class="price">147 ₽</h1>
+                        <div class="title-small">Combo Bold</div>
+                        <p
+                            class="title-small"
+                            style="font-weight: 400; font-size: 14px"
+                        >
+                            Для концентрации
+                        </p>
+                        <a
+                            href="#"
+                            class="button"
+                            >Купить</a
+                        >
+                        <a
+                            href="#"
+                            class="link"
+                            >Детали</a
+                        >
+                    </div>
+
+                    <div class="card">
+                        <div
+                            class="placeholder"
+                            style="height: 180px; margin-bottom: 20px"
+                        >
+                            <img
+                                src="/assets/img/image(7).png"
+                                alt="Combo Everyday"
+                            />
+                        </div>
+                        <h1 class="price">156 ₽</h1>
+                        <div class="title-small">Combo Everyday</div>
+                        <p
+                            class="title-small"
+                            style="font-weight: 400; font-size: 14px"
+                        >
+                            Баланс вкуса
+                        </p>
+                        <a
+                            href="#"
+                            class="button"
+                            >Купить</a
+                        >
+                        <a
+                            href="#"
+                            class="link"
+                            >Детали</a
+                        >
+                    </div>
+
+                    <div class="card">
+                        <div
+                            class="placeholder"
+                            style="height: 180px; margin-bottom: 20px"
+                        >
+                            <img
+                                src="/assets/img/image(8).png"
+                                alt="Combo Honey"
+                            />
+                        </div>
+                        <h1 class="price">275 ₽</h1>
+                        <div class="title-small">Combo Honey</div>
+                        <p
+                            class="title-small"
+                            style="font-weight: 400; font-size: 14px"
+                        >
+                            Фруктовая сладость
+                        </p>
+                        <a
+                            href="#"
+                            class="button"
+                            >Купить</a
+                        >
+                        <a
+                            href="#"
+                            class="link"
+                            >Детали</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="title-small clwhite">© 2018 Revo Coffee Vietnam.</div>
+        </footer>
+    </body>
 </html>
